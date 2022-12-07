@@ -1,0 +1,3 @@
+# django superuser setting
+export DJANGO_SUPERUSER_USERNAME='admin'
+export DJANGO_SUPERUSER_PASSWORD='secret@123'
