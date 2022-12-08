@@ -99,7 +99,7 @@ DATABASES = {
         'NAME': 'fixes_db',
         'USER': 'root',
         'PASSWORD': 'fixes_password',
-        'HOST': 'localhost',
+        'HOST': 'mysql_db',
         'PORT': 3306,
     },
 }

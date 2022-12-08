@@ -6,8 +6,12 @@ BOOL_EXPR = ('exact',)
 CHAR_EXPR = (
     'exact',
     'iexact',
+    'startswith',
     'istartswith',
+    'endswith',
     'iendswith',
+    'contains',
+    'icontains',
 )
 DATE_TIME_EXPR = (
     'exact',
@@ -41,6 +45,7 @@ class VariantFilter(FilterSet):
         fields = {
             'name': CHAR_EXPR,
             'color': CHAR_EXPR,
+            'size': CHAR_EXPR,
             'created_at': DATE_TIME_EXPR,
             'updated_at': DATE_TIME_EXPR,
             'is_deleted': BOOL_EXPR,
